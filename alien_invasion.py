@@ -26,6 +26,8 @@ def run_game():
     stats = GameStats(ai_settings)
     sb = Scoreboard(ai_settings, screen, stats)
 
+    a = 0
+
     #创建一搜飞船
     ship = Ship(ai_settings, screen)
     bullets = Group()
